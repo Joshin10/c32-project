@@ -39,14 +39,14 @@ async function getBackgroundImg(){
     // write code to fetch time from API
 var response = await fetch("http://worldtimeapi.org/api/timezone/asia/kolkata")
     //change the data in JSON format
-function getTime(){
+
     var response= await response.JSSON()
        
   
     // write code slice the datetime
-
+    var hour = datetime.slice(11,13);
     var hour=responseJSSON.utc_datetime
-}
+
     // add conditions to change the background images from sunrise to sunset
 if (hour>=05&&hour<=06){
     bg="sunrise1.png"
